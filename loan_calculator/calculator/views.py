@@ -29,7 +29,7 @@ from django.shortcuts import redirect
 
 # Define constants
 API_NINJAS_URL = 'https://api.api-ninjas.com/v1/mortgagecalculator'
-API_NINJAS_KEY  = 'uqZZuYWatDs1X8uhEYVBdg==FYGsHMRii31z1jAY' # Ideally this should not be hardcoded.
+API_NINJAS_KEY  = 'u' # Ideally this should not be hardcoded.
 
 class LoanScenarioViewSet(viewsets.ModelViewSet):  
     queryset = LoanScenario.objects.all()
